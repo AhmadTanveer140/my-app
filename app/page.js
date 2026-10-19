@@ -11,7 +11,7 @@ export default function Home() {
 
  useEffect(function(){
 
-  axios.get('https://dummyjson.com/products').then(function(resp){
+  axios.get('/api/product').then(function(resp){
 
     setProducts(resp.data.products);
 
