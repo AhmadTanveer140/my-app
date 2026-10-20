@@ -70,6 +70,11 @@ export default function Header(){
               <li className="nav-item">
                   <Link   className="nav-link" href="/my-products">My Products</Link>
               </li>
+
+ <li className="nav-item">
+                  <Link   className="nav-link" href="/New orders">New orders</Link>
+              </li>
+
             
         </>
 
